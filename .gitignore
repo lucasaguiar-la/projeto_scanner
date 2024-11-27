@@ -1,0 +1,33 @@
+# Ignorar arquivos de log
+*.log
+logs/*
+
+# Ignorar arquivos de dados
+__bkp__
+config.py
+dados.json
+resposta_upload.json
+data/*
+!data/ex.json
+
+# Ignorar pastas de saída
+__pycache__/
+*.pyc
+
+# Ignorar arquivos de configuração do IDE
+.vscode/
+.idea/
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de dependências
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Ignorar arquivos temporários
+*.tmp
+*.temp
